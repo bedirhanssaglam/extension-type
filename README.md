@@ -1,4 +1,4 @@
-This project aims to demonstrate simple implementation of Dart's [extension type](https://dart.dev/language/extension-types) in handling different cases with `flutter_bloc` in a Flutter application. While traditionally packages like `freezed` have been used for state management, this project looks at how to do this using extension types. You should not use this directly in your own project. This was created for the example.
+This project aims to demonstrate simple implementation of Dart's [extension type](https://dart.dev/language/extension-types) in handling different cases. You should not use this directly in your own project. This was created for the example.
 
 ```dart
 extension type const BaseState<T>._(({T value})? _) {
